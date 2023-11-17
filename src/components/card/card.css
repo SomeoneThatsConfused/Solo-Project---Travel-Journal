@@ -145,7 +145,7 @@
   }
 }
 
-@media (width < 470px) {
+@media (width < 480px) {
   .Card {
     font-size: 5px;
   }

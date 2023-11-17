@@ -10,7 +10,7 @@ export default function Card(props) {
         <h3>{props.data.location}</h3>
           <div className="Info--Stats">
             <h1>{props.data.attraction} </h1>
-            <h2 className='Info--Rating'>{props.data.stats.rating} <span className="Info--ReviewCount"> ({props.data.stats.reviewCount})</span></h2>
+            <h2 className='Info--Rating'>{props.data.stats.rating} <a className="Info--ReviewCount" href={props.data.stats.reviews}> ({props.data.stats.reviewCount})</a></h2>
           </div>
         </section>
         <section className='Card--Description'>
